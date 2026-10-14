@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Universe to Us</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,700;12..96,800&display=swap">
+<style>
+:root{--y:#FFD600;--b:#1740FF;--k:#000;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+*{box-sizing:border-box}html{scroll-padding-top:4rem;scroll-behavior:smooth}
+body{margin:0;background:var(--y);color:var(--k);font-family:"Bricolage Grotesque",system-ui,-apple-system,"Segoe UI",sans-serif;line-height:1.6;font-size:1.05rem}
+main{margin:0;padding:0}
+nav{position:sticky;top:env(safe-area-inset-top,0px);background:var(--k);z-index:5}
+nav .w{display:flex;gap:1.2rem;overflow-x:auto;padding:.75rem 1.25rem;font-size:.95rem;white-space:nowrap;max-width:1000px;margin:0 auto}
+nav a{color:var(--y);text-decoration:none;font-weight:700}nav a:first-child{font-weight:800;border-bottom:3px solid var(--b)}
+a{text-underline-offset:3px}a:focus-visible{outline:3px solid currentColor;outline-offset:3px}
+header.hero,section,footer{padding-left:max(1.25rem,calc((100% - 940px)/2));padding-right:max(1.25rem,calc((100% - 940px)/2))}
+.k{background:var(--k);color:var(--y)}.y{background:var(--y);color:var(--k)}.b{background:var(--b);color:var(--y)}
+.k a,.b a{color:var(--y)}.y a{color:var(--k)}
+.hero{position:relative;padding-top:4.5rem;padding-bottom:3.5rem}
+.hero h1{margin:0;font-size:clamp(2.6rem,9vw,5.6rem);line-height:1;font-weight:800;letter-spacing:-.03em}
+.hero h1 span{display:block}.hero h1 span:nth-child(2){margin-left:.6em;color:var(--b)}.hero h1 span:nth-child(3){margin-left:1.2em}
+.hero p{max-width:36em;margin:1.75rem 0 0;font-size:1.15rem}
+.orbit{position:absolute;right:1rem;top:1rem;width:min(40%,300px);pointer-events:none}
+.orbit ellipse{fill:none;stroke:var(--b);stroke-width:2}.orbit .o{fill:var(--y)}
+.stats{display:flex;flex-wrap:wrap;gap:1rem 3rem;margin-top:2.5rem}.stats div{font-size:.95rem}.stats b{display:block;font-size:2.4rem;line-height:1.1}
+section{padding-top:3.5rem;padding-bottom:3.5rem}
+h2{font-size:clamp(1.7rem,4vw,2.3rem);letter-spacing:-.02em;margin:0 0 .5rem}.lead{max-width:42em;margin:0 0 2rem}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(270px,1fr));gap:1.25rem}
+.card{padding:1.25rem 1.4rem;border-top:6px solid var(--b);background:var(--k);color:var(--y)}
+.b .card{border-top-color:var(--y)}.k .card{background:var(--b);border-top-color:var(--y)}
+.card h3{margin:0 0 .15rem;font-size:1.2rem;line-height:1.25}.card .r{font-weight:800;margin:0 0 .15rem}.card .t{font-size:.85rem;margin:0 0 .6rem;opacity:.9}.card p{margin:0 0 .6rem;font-size:.98rem}
+.sess{list-style:none;margin:0;padding:0 0 0 1.5rem;border-left:4px solid var(--k)}
+.sess li{position:relative;padding:0 0 1.9rem}
+.sess li::before{content:"";position:absolute;left:calc(-1.5rem - 10px);top:.45rem;width:16px;height:16px;border-radius:50%;background:var(--b);border:3px solid var(--k)}
+.sess time{font-size:.9rem;font-weight:700}.sess h3{margin:.1rem 0 .3rem;font-size:1.25rem}.sess p{margin:0 0 .4rem;max-width:44em}
+blockquote{margin:0;padding:1.25rem 1.5rem;background:var(--k);color:var(--y);border-left:6px solid var(--y);max-width:44em}blockquote p{margin:0 0 .6rem}
+.cta{display:inline-block;background:var(--y);color:var(--k)!important;padding:.85rem 1.5rem;border-radius:6px;text-decoration:none;font-weight:800}
+footer{padding-top:2rem;padding-bottom:3rem;font-size:.95rem}
+@media(max-width:600px){.orbit{display:none}}
+</style></head><body>
+<nav><div class="w"><a href="#top">Universe to Us</a><a href="#about">About</a><a href="#team">Team</a><a href="#sessions">Sessions</a><a href="#initiatives">Initiatives</a><a href="#join">Join</a></div></nav>
+<main id="top">
+<header class="hero k">
+<svg class="orbit" viewBox="0 0 300 220" aria-hidden="true"><ellipse cx="150" cy="110" rx="140" ry="60" transform="rotate(-18 150 110)"/><ellipse cx="150" cy="110" rx="95" ry="38" transform="rotate(-18 150 110)"/><circle class="o" cx="268" cy="78" r="9"/></svg>
+<h1><span>Theory.</span><span>Thought.</span><span>Transformation.</span></h1>
+<p>A youth-led initiative bringing the wonders of physics to underprivileged children in India, through storytelling, art and hands-on activities.</p>
+<div class="stats"><div><b>20</b>classroom sessions across India</div><div><b>100+</b>students taught</div><div><b>7</b>board and founding members</div></div>
+</header>
+
+<section id="about" class="y"><h2>About</h2>
+<p class="lead">Universe to Us believes every child deserves to understand their place in the cosmos. Launched in October 2024, it bridges educational gaps by introducing young minds to the fundamentals of existence, and builds confidence and critical thinking along the way.</p>
+<div class="grid">
+<div class="card"><h3>How we teach</h3><p>Immersive, story-driven sessions with real-life examples, hands-on activities and open dialogue. Complex ideas become experiences students can relate to.</p></div>
+<div class="card"><h3>The idea</h3><p>It began on a school night, when curiosity about our place in the cosmos turned into a first proposal by 2 a.m. A whole team took it from there.</p></div>
+<div class="card"><h3>V1 and beyond</h3><p>On 9 January 2026 the Founding Board, then finishing Grade 12, became the Advisory Council. Board duties are now compartmentalised across another set of enthusiastic students who carry the mission forward.</p></div>
+</div></section>
+
+<section id="team" class="b"><h2>The team</h2>
+<p class="lead">Our six founding members, introduced in October 2024 and now our Advisory Council, and Nathan Fernandes, who sits on the current board.</p>
+<div class="grid" id="teamgrid"></div></section>
+
+<section id="sessions" class="y"><h2>Classroom sessions</h2>
+<p class="lead">We have run 20 classroom sessions across India and taught 100+ students. Every session follows the same recipe: a story-told lecture, then activities where students learn by doing. Below are a few we have shared on video.</p>
+<ol class="sess" id="sesslist"></ol></section>
+
+<section id="initiatives" class="k"><h2>Initiatives</h2>
+<p class="lead">Beyond the classroom: series, fundraisers, newsletters and campaigns.</p>
+<div class="grid" id="initgrid"></div></section>
+
+<section id="note" class="b"><h2>From the Founding Board</h2>
+<blockquote><p>Universe to Us has always believed that every child deserves to understand their place in the cosmos. That belief does not retire with us.</p><p>The Founding Board, 9 January 2026</p></blockquote></section>
+
+<section id="join" class="k"><h2>Join or partner with us</h2>
+<p class="lead">Organisations passionate about education and equity are invited to connect. Reach out by Instagram message, email or website.</p>
+<a class="cta" href="https://www.instagram.com/universe_to_us/">Message @universe_to_us</a></section>
+</main>
+<footer class="k"><div>Universe to Us. Theory. Thought. Transformation.</div></footer>
+<script>
+var team=[["Yuvraj Arora","Founder & President","Unites every part of the initiative, working with each member so engagement, logistics and content come together."],
+["Srijan Seshadri","Head of Syllabus","Makes sure what is taught is interesting, engaging and memorable. He dreamt of being an astronaut as a kid."],
+["Trishaan Chaturvedi","Head of Content","An experienced NGO leader, content writer and published author who keeps the stories imaginative."],
+["Pranav Chawla","Head of Marketing","Leads outreach for the mission of sparking curiosity in young, underprivileged learners."],
+["Daksh Arora","Head of Operations","Manages day-to-day working and makes sure the team has the inventory each session needs."],
+["Vihit Shah","Head of Logistics","Keeps everything behind the scenes running, from coordinating activities to session supplies."],["Nathan Fernandes","Head of Growth & International Partnerships","Leads growth and international partnerships as part of the current board."]];
+document.getElementById("teamgrid").innerHTML=team.map(function(t){return '<div class="card"><h3>'+t[0]+'</h3><p class="r">'+t[1]+'</p><p class="t">'+(t[0]=="Nathan Fernandes"?"Current board":"Founding team, now Advisory Council")+'</p><p>'+t[2]+'</p></div>'}).join("");
+var S=[["20 January 2025","We Care Foundation","Where did everything come from?","First session, at Ullawas Government School, Gurugram. Big Bang, an expanding universe modelled with dots on a balloon, and students drawing their own Solar System.","DFE2StnMYLY"],
+["1 February 2025","We Care Foundation","How did we become human?","Evolution and energy. Teams of five ran a relay as stages of evolution, passing energy balls, then drew the next stage of human evolution.","DFj3quYswBG"],
+["Early May 2025","Sanshil Foundation","How did it all begin?","The Big Bang, dark energy, stardust, the eight planets and why Pluto was reclassified, with the balloon activity and drawing.","DJPAO4nTsO8"],
+["10 May 2025","Sanshil Foundation","From the Big Bang to us","Students became living timelines in a relay of smiley balls, passing energy from single cells to Homo sapiens.","DJgpavNTo3I"],
+["Late May 2025","We Care Foundation","Electricity","Flow of charge, insulators, circuit parts and static electricity, including the balloon-on-hair experiment.","DKE-0IaTkbz"],
+["Late May 2025","Sanshil Foundation","Forces and motion","Newton's three laws, taught through small games of football and cricket.","DKH6BUQTlol"],
+["Late May 2025","Sanshil Foundation","Relativity","Motion is relative, gravity bends spacetime, time stretches as you chase light.","DKKZr1jzbiQ"],
+["10 June 2025","We Care Foundation","Big Bang for a new cohort","The syllabus restarted from the beginning with a story-based lecture and two activities. Students also recreated the Big Bang Theory intro.","DLAKeITzDI1"],
+["Mid June 2025","Sanshil Foundation with ElderEase","The life of a star and the human brain","A star's lifecycle, then ElderEase on dementia and Parkinson's. Students made cards for elders in care homes.","DLHhB_SzSdy"]];
+document.getElementById("sesslist").innerHTML=S.map(function(s){return '<li><time>'+s[0]+' · '+s[1]+'</time><h3>'+s[2]+'</h3><p>'+s[3]+'</p><a href="https://www.instagram.com/reel/'+s[4]+'/">Watch the reel</a></li>'}).join("");
+var I=[["Physics of Play, Echoes of Existence, Stars of Tomorrow","Three programmes announced in November 2024: sports meets science, storytelling explores the universe, and young thinkers find their place in the cosmos."],
+["Monthly Physics Bulletin","Six issues from January to June 2025. Each has the month's physics advances, initiative updates and a celestial event, from the Planetary Parade to the Strawberry Moon."],
+["What If…? and Science Sunday","Curiosity-led explainers: the Sun disappearing, the Earth stopping, floating into space without a suit, and moving at light speed."],
+["Physics in Sports","Chelsea's goals in the 2025 Club World Cup final and Max Verstappen's Formula 1 comeback, explained through physics."],
+["Screen Science","Launched March 2026, starting with the First Law of Thermodynamics through Rick and Morty."],
+["U2U Science Fair and donation drive","A platform for underprivileged children to build their own projects. Donations buy equipment and science kits."],
+["The Provision Node fundraiser","The first fundraiser, on 15 June 2025 at Nirvana Fresco, with a physics-themed menu and games. Funds go to science kits."],
+["The Particle Parade","The half-yearly newsletter of news, poetry, outreach reflections and essays. Issue 1 launched in June 2025."],
+["Volunteer and core team calls","Applications for session managers, syllabus developers and session volunteers opened in January and June 2025."],
+["Explainers and celebrations","Reels and carousels on the Big Bang, gravity, entropy, quantum many-worlds, Weyl fermions, Hubble's 35th birthday and Star Wars Day."]];
+document.getElementById("initgrid").innerHTML=I.map(function(c){return '<div class="card"><h3>'+c[0]+'</h3><p>'+c[1]+'</p></div>'}).join("");
+</script></body></html>
